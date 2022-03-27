@@ -1,0 +1,87 @@
+body {
+  background: rgb(250, 248, 248);
+  position: relative;
+  margin: 0px;
+}
+
+.cabezera {
+  position: fixed;
+  top: 0px;
+  background: rgba(243, 243, 84, 0.637);
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-weight: 900;
+}
+
+.grid-fluid {
+  display: grid;
+  margin-top: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.loader {
+  display: block;
+  margin: 100px;
+  text-align: center;
+}
+
+input {
+  font-size: 22px;
+  padding: 10px;
+  border: red 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.loader i {
+  font-size: 80px;
+  color: red;
+}
+
+.no_existe {
+  display: block;
+  margin: 100px;
+  text-align: center;
+}
+
+.no_existe p {
+  font-size: 20px;
+  color: red;
+}
+
+.no_existe p mark {
+  color: black;
+  background: white;
+  text-align: center;
+}
+
+.show {
+  margin: 20px;
+  padding: 20px;
+}
+
+.show h3 {
+  text-align: center;
+  color: red;
+}
+
+.show p {
+  text-align: justify;
+}
+
+.show img {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background: rgba(243, 243, 84, 0.637);
+}
